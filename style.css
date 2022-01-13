@@ -5,27 +5,33 @@
 }
 body {
   text-align: center;
+
   background: rgb(241, 69, 98);
+
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 #container > * {
   background: rgb(27, 228, 168);
+
   padding: 20px;
+
   border-radius: 5px;
 }
 #container > *:hover {
   background: rgb(243, 162, 243);
+
   transition: 0.3s;
 }
 #container > *:hover img {
   transform: translateY(-5px);
+
   transition: 0.3s;
 }
 
 #container {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-rows: minmax(200px, auto);
+  grid-auto-rows: minmax(33.33vh, auto);
   grid-gap: 8px;
   grid-template-areas:
     "one one two three"
